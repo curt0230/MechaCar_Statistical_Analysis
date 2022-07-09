@@ -11,9 +11,11 @@ A linear regression was performed on the MechaCar gas mileage data to determine 
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Overall this design specification is met based on PSI summary statistics.  
+
 ![psi_total_summary.png](/resources/psi_total_summary.png)
 
 However, While lots 1 and 2 closely adhere to the specifications as indicated by very low variances, lot 3 exceeds tolerance and should be closely inspected and potentially rejected.
+
 ![psi_lot_summary.png](/resources/psi_lot_summary.png)
 
 
@@ -21,15 +23,19 @@ However, While lots 1 and 2 closely adhere to the specifications as indicated by
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 A cumulative t-test review of the suspension coils across all manufacturing lots indicates they are not significantly different than the population mean and thus they are within the standard based on the p-value.
+
 ![overall_t_test_results.png](/resources/overall_t_test_results.png)
 
 A cumulative t-test review of the suspension coils manufacturing lot 1 indicates they are not significantly different than the population mean and thus they are within the standard based on the p-value.
+
 ![lot1_t_test_results.png](/resources/lot1_t_test_results.png)
 
 A cumulative t-test review of the suspension coils manufacturing lot 2 indicates they are not significantly different than the population mean and thus they are within the standard based on the p-value.
+
 ![lot2_t_test_results.png](/resources/lot2_t_test_results.png)
 
 A cumulative t-test review of the suspension coils manufacturing lot 3 indicates they are significantly different than the population mean and thus they exceed the standard based on the p-value.  This lot should be closely inspected and potentially rejected.
+
 ![lot3_t_test_results.png](/resources/lot3_t_test_results.png)
 
 
